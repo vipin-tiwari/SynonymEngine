@@ -11,7 +11,7 @@ Please follow below steps:
 1. vagrant up
 
 # Start with the App Testing
-2. GET Request: http://localhost:9000/\<term\>
+2. GET Request: http://localhost:9000/<term\>
    404 Error with : No synonym for term <term>
 
 3. POST Request: http://localhost:9000/\<term\>/\<synonym\>
