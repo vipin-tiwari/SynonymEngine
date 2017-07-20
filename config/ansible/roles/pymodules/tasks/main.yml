@@ -1,0 +1,5 @@
+- name: Install bottle
+  pip: name=bottle
+
+- name: Install redis
+  pip: name=redis
