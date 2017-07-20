@@ -1,8 +1,9 @@
-# The Vagrantfile has been provided for the beta testing/
-# The Vagrantfile  configures the box with port-forwarding and provisions with:
-#  a. bootstrap.sh 
-#  b. run ansible playbook
-#  c. startup the application.
+#Introduction
+The Vagrantfile has been provided for the beta testing/
+The Vagrantfile  configures the box with port-forwarding and provisions with:
+ a. bootstrap.sh 
+ b. run ansible playbook
+ c. startup the application.
 
 Please follow below steps:
 
@@ -17,12 +18,13 @@ Please follow below steps:
 4. Again, GET Request for Above term: http://localhost:9000/<term>
    The response will be the synonym saved in the previous post call.
 
+Example:
 
-Eg.  1. http://localhost:9000/good
-     404 Error with : No synonym for term good
+ 1. http://localhost:9000/good
+    404 Error with : No synonym for term good
 
-     2. POST Request: http://localhost:9000/good/excellent
+ 2. POST Request: http://localhost:9000/good/excellent
 
-     3. http://localhost:9000/good
-        Response: excellent
+ 3. http://localhost:9000/good
+ 	Response: excellent
 
